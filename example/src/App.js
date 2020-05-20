@@ -1,10 +1,12 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-sidebar-ui'
+import { Sidebar } from 'react-sidebar-ui'
 import 'react-sidebar-ui/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
-}
+  return (
+    <Sidebar bgColor='red'/>
+  )
+};
 
 export default App
