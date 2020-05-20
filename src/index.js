@@ -1,11 +1,15 @@
 import React from 'react'
 import styles from './styles.module.css'
-import SidebarComponent from './components/sidebar/Sidebar';
-
-export const ExampleComponent = ({ text }) => {
-  return (
-    <SidebarComponent></SidebarComponent>
-  )
-};
+import SidebarComponent from './components/Sidebar';
+import LogoComponent from './components/Logo';
+import LogoTextComponent from './components/LogoText';
+import DropdownItemComponent from './components/DropdownItem';
+import InputItemComponent from './components/InputItem';
+import ItemComponent from './components/Item';
 
 export const Sidebar = SidebarComponent;
+export const Logo = LogoComponent;
+export const LogoText = LogoTextComponent;
+export const Item = ItemComponent;
+export const InputItem = InputItemComponent;
+export const DropdownItem = DropdownItemComponent;

@@ -15,3 +15,12 @@
 .bg-white {
   background-color: white;
 }
+.container-wrapper {
+  width: 20vw;
+  height: 100vh;
+  background-color: salmon;
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+}

@@ -1,11 +1,16 @@
 import React from 'react'
 
-import { Sidebar } from 'react-sidebar-ui'
+import { Sidebar, Logo, LogoText, InputItem, DropdownItem, Item } from 'react-sidebar-ui'
 import 'react-sidebar-ui/dist/index.css'
 
 const App = () => {
   return (
-    <Sidebar bgColor='red'/>
+    <Sidebar bgColor='red'>
+      <LogoText>Logo Text</LogoText>
+      <InputItem/>
+      <DropdownItem/>
+      <Item/>
+    </Sidebar>
   )
 };
 
