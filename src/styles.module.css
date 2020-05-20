@@ -20,7 +20,8 @@
   height: 100vh;
   background-color: salmon;
   color: white;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
+  text-align: center;
 }

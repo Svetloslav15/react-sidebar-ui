@@ -1,16 +1,22 @@
 import React from 'react'
 
-import { Sidebar, Logo, LogoText, InputItem, DropdownItem, Item } from 'react-sidebar-ui'
+import * as SidebarUI from 'react-sidebar-ui'
 import 'react-sidebar-ui/dist/index.css'
 
 const App = () => {
   return (
-    <Sidebar bgColor='red'>
-      <LogoText>Logo Text</LogoText>
-      <InputItem/>
-      <DropdownItem/>
-      <Item/>
-    </Sidebar>
+    <div>
+      <SidebarUI.Sidebar bgColor='red'>
+        <SidebarUI.Logo
+          image='https://www.dolphinproject.com/wp-content/uploads/2019/07/Maya.jpg'
+          imageName='dolphin'/>
+        <SidebarUI.LogoText>Logo Text</SidebarUI.LogoText>
+        <SidebarUI.DropdownItem/>
+        <SidebarUI.InputItem/>
+        <SidebarUI.Icon/>
+        <SidebarUI.Item/>
+      </SidebarUI.Sidebar>
+    </div>
   )
 };
 
