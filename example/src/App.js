@@ -11,22 +11,21 @@ const App = () => {
           image='https://www.dolphinproject.com/wp-content/uploads/2019/07/Maya.jpg'
           imageName='dolphin'/>
         <LogoText>Logo Text</LogoText>
-        <DropdownItem/>
-        <InputItem/>
+        <DropdownItem values={['First', 'Second', 'Third']} bgColor={'black'}>Menu</DropdownItem>
         <Item bgColor='black'>
           <Icon><i className="fas fa-home"/></Icon>
           Home
         </Item>
-        <Item bgColor='light'>
+        <Item bgColor='black'>
           <Icon><i className="fas fa-home"/></Icon>
           About
         </Item>
-        <Item bgColor='blue'>
+        <Item bgColor='black'>
           <Icon><i className="fas fa-home"/></Icon>
           My Website
         </Item>
         <Item bgColor='black'>
-          <Icon><i className="fas fa-home"/></Icon>
+          <Icon><i className="fas fa-arrow-alt-circle-right"/></Icon>
           Contacts
         </Item>
         <Item bgColor='black'>

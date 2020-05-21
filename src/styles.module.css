@@ -81,5 +81,18 @@
 }
 
 .dropdown-item {
+  text-align: left;
+  cursor: pointer;
+}
 
+.mx-1 {
+  margin: 0 1em;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
 }
