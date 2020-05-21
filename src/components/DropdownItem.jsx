@@ -2,7 +2,7 @@ import React from 'react';
 
 const DropdownItem = () => {
   return (
-    <div>Dropdown</div>
+    <div className='_styles-module__item__VrCv'>Dropdown</div>
   )
 };
 

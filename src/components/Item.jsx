@@ -1,8 +1,11 @@
 import React from 'react';
+import colors from '../enums/colors';
+import colorsHovered from '../enums/colors-hovered';
 
-const Item = ({children}) => {
+const Item = ({bgColor, children}) => {
+  const color = `${colorsHovered[bgColor]} ${colors[bgColor]}`;
   return (
-    <div className='_styles-module__item__VrCvP'>{children}</div>
+    <div className={'_styles-module__item__VrCvP ' + color}>{children}</div>
   )
 };
 

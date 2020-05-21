@@ -6,21 +6,33 @@ import 'react-sidebar-ui/dist/index.css'
 const App = () => {
   return (
     <div>
-      <Sidebar bgColor='red'>
+      <Sidebar bgColor='black'>
         <Logo
           image='https://www.dolphinproject.com/wp-content/uploads/2019/07/Maya.jpg'
           imageName='dolphin'/>
         <LogoText>Logo Text</LogoText>
         <DropdownItem/>
         <InputItem/>
-        <Item>
-          <Icon style={{padding: '10em'}}><i className="fas fa-home"/></Icon>
+        <Item bgColor='black'>
+          <Icon><i className="fas fa-home"/></Icon>
           Home
         </Item>
-        <Item>About</Item>
-        <Item>My Website</Item>
-        <Item>Contacts</Item>
-        <Item>Blog</Item>
+        <Item bgColor='light'>
+          <Icon><i className="fas fa-home"/></Icon>
+          About
+        </Item>
+        <Item bgColor='blue'>
+          <Icon><i className="fas fa-home"/></Icon>
+          My Website
+        </Item>
+        <Item bgColor='black'>
+          <Icon><i className="fas fa-home"/></Icon>
+          Contacts
+        </Item>
+        <Item bgColor='black'>
+          <Icon><i className="fas fa-home"/></Icon>
+          Blog
+        </Item>
       </Sidebar>
     </div>
   )

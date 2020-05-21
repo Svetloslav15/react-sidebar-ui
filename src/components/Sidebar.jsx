@@ -1,12 +1,11 @@
 import React from 'react';
 import '../styles.module.css';
+import colors from '../enums/colors';
 
 const Sidebar = ({bgColor, children}) => {
-  const colors = {
-    red: '_styles-module__bg-red__2a97v',
-  };
+  const color = colors[bgColor] || colors['white'];
   return (
-    <div className={colors[bgColor] + ' _styles-module__container-wrapper__13dNw'}>
+    <div className={'_styles-module__container-wrapper__13dNw ' + color}>
       {children}
     </div>
   )

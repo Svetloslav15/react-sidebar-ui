@@ -51,6 +51,7 @@
     "dist"
   ],
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.13.0"
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "react-router-dom": "^5.2.0"
   }
 }
