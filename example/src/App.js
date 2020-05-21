@@ -8,9 +8,10 @@ const App = () => {
     <div>
       <Sidebar bgColor='black'>
         <Logo
-          image='https://www.dolphinproject.com/wp-content/uploads/2019/07/Maya.jpg'
-          imageName='dolphin'/>
-        <LogoText>Logo Text</LogoText>
+          image='https://media2.giphy.com/media/eNAsjO55tPbgaor7ma/source.gif'
+          imageName='react logo'/>
+        <LogoText>React Sidebar UI</LogoText>
+
         <DropdownItem values={['First', 'Second', 'Third']} bgColor={'black'}>Menu</DropdownItem>
         <Item bgColor='black'>
           <Icon><i className="fas fa-home"/></Icon>

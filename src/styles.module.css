@@ -105,3 +105,8 @@
   transition-duration: 2s;
   transition-timing-function: ease-in;
 }
+
+.logo-image {
+  width: 100px;
+  margin-top: 1em;
+}
