@@ -61,6 +61,7 @@ const App = () => {
   )
 };
 ```
+You should import FontAwesome in order to use the icons.
 ## Props
 
 Common props you may want to specify include:
