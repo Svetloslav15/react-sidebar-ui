@@ -38,10 +38,13 @@
   background-color: deepskyblue;
   cursor: pointer;
   text-align: left;
+  transition: all 0.3s ease-in-out;
 }
 
 .item:hover {
   background-color: #0377DA;
+  padding: 14px 0;
+  padding-left: 12px;
 }
 
 .icon {
@@ -95,4 +98,10 @@
 
 .d-block {
   display: block;
+  position: relative;
+}
+
+.slide-animation {
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
 }
