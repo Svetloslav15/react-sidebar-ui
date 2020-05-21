@@ -62,6 +62,9 @@ const App = () => {
 };
 ```
 
+## Contribute 
+Contributions are always welcome!
+Please read the [contribution guidelines](contributing.md) first.
 ## License
 
 Copyright © [Webinax](https://github.com/Webinax)
