@@ -1,8 +1,15 @@
 import React from 'react';
 
-const Toggler = () => {
+const Toggler = ({isCollapsed, toggleIsOpen}) => {
   return (
-    <div>Toggler</div>
+    <span onClick={() => toggleIsOpen(!isCollapsed)}>
+      {
+        !isCollapsed ?
+          <i className="fas fa-times _styles-module__toggler__2_oI1"/>
+          :
+          <i className="fas fa-bars _styles-module__toggler__2_oI1"/>
+      }
+    </span>
   )
 };
 

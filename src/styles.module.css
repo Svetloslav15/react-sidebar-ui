@@ -4,14 +4,6 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
-}
-
 .bg-red {
   background-color: crimson;
 }
@@ -29,6 +21,7 @@
   left: 0;
   top: 0;
   text-align: center;
+  transition: all .3s ease-in-out;
 }
 
 .item {
@@ -38,13 +31,13 @@
   background-color: deepskyblue;
   cursor: pointer;
   text-align: left;
-  transition: all 0.3s ease-in-out;
 }
 
 .item:hover {
   background-color: #0377DA;
   padding: 14px 0;
   padding-left: 12px;
+  transition: all .3s ease-in-out;
 }
 
 .icon {
@@ -101,12 +94,33 @@
   position: relative;
 }
 
-.slide-animation {
-  transition-duration: 2s;
-  transition-timing-function: ease-in;
-}
-
 .logo-image {
   width: 100px;
   margin-top: 1em;
+}
+
+.toggler {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.collapsed {
+  width: 85px;
+}
+
+input {
+  padding: 12px 20px;
+  margin: 15px 0;
+  box-sizing: border-box;
+}
+
+.pos-left {
+  left: 0;
+}
+
+.pos-right {
+  right: 0;
 }

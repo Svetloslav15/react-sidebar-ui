@@ -1,12 +1,23 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import '../styles.module.css';
 import colors from '../enums/colors';
+import Toggler from './Toggler';
 
-const Sidebar = ({bgColor, children}) => {
+const Sidebar = ({bgColor, children, isCollapsed}) => {
+  const [isOpen, toggleIsOpen] = useState(isCollapsed);
   const color = colors[bgColor] || colors['white'];
+  const [classCollapsed, setCollapsed] = useState('');
+
+  useEffect(() => {
+    const c = isOpen ? ` _styles-module__collapsed__2Q5t5 ` : '';
+    setCollapsed(c);
+  }, [isOpen]);
   return (
-    <div className={'_styles-module__container-wrapper__13dNw ' + color}>
-      {children}
+    <div className={'_styles-module__container-wrapper__13dNw ' + color + classCollapsed}>
+      <Toggler isCollapsed={isOpen} toggleIsOpen={toggleIsOpen}/>
+      {
+        isOpen ? '' : children
+      }
     </div>
   )
 };
