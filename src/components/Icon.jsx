@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Icon = () => {
+const Icon = ({children, styles}) => {
   return (
-    <div>Fontawesome</div>
+    <div className='_styles-module__icon__2Vept' style={{styles}}>{children}</div>
   )
 };
 

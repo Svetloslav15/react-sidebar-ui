@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Item = () => {
+const Item = ({children}) => {
   return (
-    <div>Item</div>
+    <div className='_styles-module__item__VrCvP'>{children}</div>
   )
 };
 

@@ -1,4 +1,8 @@
-/* add css module styles here (optional) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
 
 .test {
   margin: 2em;
@@ -16,7 +20,7 @@
   background-color: white;
 }
 .container-wrapper {
-  width: 20vw;
+  width: 20%;
   height: 100vh;
   background-color: salmon;
   color: white;
@@ -24,4 +28,23 @@
   left: 0;
   top: 0;
   text-align: center;
+}
+
+.item {
+  width: 95.5%;
+  padding: 10px 0;
+  padding-left: 12px;
+  background-color: deepskyblue;
+  cursor: pointer;
+  text-align: left;
+}
+.item:hover {
+  background-color: #0377DA;
+}
+
+.icon {
+  padding-right: 10px;
+  display: inline-block;
+  width: 20%;
+  font-size: 15px;
 }
