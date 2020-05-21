@@ -61,6 +61,11 @@ const App = () => {
   )
 };
 ```
+## Props
+
+Common props you may want to specify include:
+
+- `bgColor` - change the color of the sidebar it can be `black`, `light`, ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)`blue`
 
 ## Contribute 
 Contributions are always welcome!
