@@ -13,18 +13,51 @@ npm install --save react-sidebar-ui
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
+import {Sidebar, InputItem, DropdownItem, Icon, Item, Logo, LogoText} from 'react-sidebar-ui'
+import 'react-sidebar-ui/dist/index.css';
 
-import MyComponent from 'react-sidebar-ui'
-import 'react-sidebar-ui/dist/index.css'
+const App = () => {
+  return (
+    <div>
+      <Sidebar bgColor='black' isCollapsed={false}>
+        <Logo
+          image='https://media2.giphy.com/media/eNAsjO55tPbgaor7ma/source.gif'
+          imageName='react logo'/>
+        <LogoText>React Sidebar UI</LogoText>
+        <DropdownItem
+          values={['First', 'Second', 'Third']}
+          bgColor={'black'}>
+          Menu
+        </DropdownItem>
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+        <Item bgColor='black'>
+          <Icon><i className="fas fa-home"/></Icon>
+          Home
+        </Item>
+        <Item bgColor='black'>
+          <Icon><i className="fas fa-info"/></Icon>
+          About
+        </Item>
+        <Item bgColor='black'>
+          <Icon><i className="fas fa-sitemap"/></Icon>
+          My Website
+        </Item>
+        <Item bgColor='black'>
+          <Icon><i className="far fa-address-book"/></Icon>
+          Contacts
+        </Item>
+        <Item bgColor='black'>
+          <Icon><i className="fas fa-rss-square"/></Icon>
+          Blog
+        </Item>
+        <InputItem type='text' placeholder={'Search...'}/>
+      </Sidebar>
+    </div>
+  )
+};
 ```
 
 ## License
 
-yes © [Webinax](https://github.com/Webinax)
+Copyright © [Webinax](https://github.com/Webinax)
