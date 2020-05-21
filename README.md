@@ -82,6 +82,8 @@ Common props you may want to specify include:
 ## Contribute 
 Contributions are always welcome!
 Please read the [contribution guidelines](contributing.md) first.
+
+### ⭐ If you liked the event, please consider giving me a star. Thank you!
 ## License
 
 Copyright © [Webinax](https://github.com/Webinax)
