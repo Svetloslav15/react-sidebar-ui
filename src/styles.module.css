@@ -124,3 +124,30 @@ input {
 .pos-right {
   right: 0;
 }
+
+.bg-peach {
+  background-color: #FD7E65;
+  color: white;
+}
+
+.bg-peach-hover:hover {
+  background-color: #FD9768;
+}
+
+.bg-purple {
+  background-color: #A771E4;
+  color: white;
+}
+
+.bg-purple-hover:hover {
+  background-color: #E26FCF;
+}
+
+.bg-aqua {
+  background-color: #1DA4F4;
+  color: white;
+}
+
+.bg-aqua-hover:hover {
+  background-color: #16BCDE;
+}
