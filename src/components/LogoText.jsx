@@ -1,8 +1,8 @@
 import React from 'react';
 
-const LogoText = ({children}) => {
+const LogoText = ({children, classes}) => {
   return (
-    <h2>{children}</h2>
+    <h2 className={classes}>{children}</h2>
   )
 };
 

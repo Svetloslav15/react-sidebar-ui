@@ -12,3 +12,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+.bg-red {
+  font-family: 'Chelsea Market', cursive;
+}
