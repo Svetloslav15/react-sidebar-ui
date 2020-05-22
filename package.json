@@ -1,6 +1,6 @@
 {
   "name": "react-sidebar-ui",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Sidebar component for React projects with customizable design",
   "author": "Webinax",
   "license": "yes",
@@ -15,7 +15,7 @@
     "navigation",
     "ui"
   ],
-  "repository": "https://github.com/Webinax/react-sidebar-ui",
+  "repository": "https://github.com/Svetloslav15/react-sidebar-ui",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

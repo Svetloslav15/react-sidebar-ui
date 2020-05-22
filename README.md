@@ -93,4 +93,4 @@ Please read the [contribution guidelines](contributing.md) first.
 ### ⭐ If you liked the component, please consider giving me a star. Thank you!
 ## License
 
-Copyright © [Webinax](https://github.com/Webinax)
+Copyright © [Svetloslav Novoselski](https://github.com/Svetloslav15)
