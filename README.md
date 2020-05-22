@@ -61,10 +61,34 @@ const App = () => {
   )
 };
 ```
+You should import FontAwesome in order to use the icons.
+## Props
 
+Common props you may want to specify include:
+### Sidebar
+- `bgColor` - change the color of the sidebar it can be `black`, `light`, `blue`
+- `isCollapsed` - add start position of the sidebar if it will be collapsed or not
+- `classes` - add your custom classes if you want to add custom style to the component
+### DropdownItem
+- `bgColor` - change the color of the sidebar it can be `black`, `light`, `blue`
+- `values` - items that will be displayed
+- `classes` - add your custom classes if you want to add custom style to the component
+### Item
+- `bgColor` - change the color of the sidebar it can be `black`, `light`, `blue`
+- `classes` - add your custom classes if you want to add custom style to the component
+### Logo
+- `image` - url to the image
+- `imageText` - alt tag of the image
+- `classes` - add your custom classes if you want to add custom style to the component
+### InputItem
+- `type` - type of the input field
+- `placeholder` - placeholder of the input field
+- `classes` - add your custom classes if you want to add custom style to the component
 ## Contribute 
 Contributions are always welcome!
 Please read the [contribution guidelines](contributing.md) first.
+
+### ⭐ If you liked the component, please consider giving me a star. Thank you!
 ## License
 
 Copyright © [Webinax](https://github.com/Webinax)
