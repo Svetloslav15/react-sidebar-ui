@@ -84,6 +84,9 @@ Common props you may want to specify include:
 - `type` - type of the input field
 - `placeholder` - placeholder of the input field
 - `classes` - add your custom classes if you want to add custom style to the component
+
+## Customization
+If you want to change the style of a component, you can do it by adding your own classes to the component
 ## Contribute 
 Contributions are always welcome!
 Please read the [contribution guidelines](contributing.md) first.
