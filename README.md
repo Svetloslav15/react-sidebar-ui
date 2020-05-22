@@ -4,9 +4,9 @@
 
 [![NPM](https://img.shields.io/npm/v/react-sidebar-ui.svg)](https://www.npmjs.com/package/react-sidebar-ui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-![React Sidebar UI Black](https://i.imgur.com/gXPJtJW.gif){width="90%"}
-![React Sidebar UI Light](https://i.imgur.com/QT86Om0.gif){width="90%"}
-![React Sidebar UI Blue](https://imgur.com/gHZQYo6.gif){width="90%"}
+![React Sidebar UI Black](https://i.imgur.com/gXPJtJW.gif){:width="90%"}
+![React Sidebar UI Light](https://i.imgur.com/QT86Om0.gif){:width="90%"}
+![React Sidebar UI Blue](https://imgur.com/gHZQYo6.gif){:width="90%"}
 
 ## Install
 
