@@ -4,9 +4,9 @@
 
 [![NPM](https://img.shields.io/npm/v/react-sidebar-ui.svg)](https://www.npmjs.com/package/react-sidebar-ui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-![](https://i.imgur.com/gXPJtJW.gif)
-![](https://i.imgur.com/QT86Om0.gif)
-
+![React Sidebar UI Black](https://i.imgur.com/gXPJtJW.gif)
+![React Sidebar UI Light](https://i.imgur.com/QT86Om0.gif)
+![React Sidebar UI Blue](https://imgur.com/gHZQYo6.gif)
 ## Install
 
 ```bash
@@ -65,15 +65,15 @@ You should import FontAwesome in order to use the icons.
 
 Common props you may want to specify include:
 ### Sidebar
-- `bgColor` - change the color of the sidebar it can be `black`, `light`, `blue`
+- `bgColor` - change the color of the sidebar it can be `black`, `light`, `blue`, `purple`, `aqua`, `peach`
 - `isCollapsed` - add start position of the sidebar if it will be collapsed or not
 - `classes` - add your custom classes if you want to add custom style to the component
 ### DropdownItem
-- `bgColor` - change the color of the sidebar it can be `black`, `light`, `blue`
+- `bgColor` - change the color of the sidebar it can be `black`, `light`, `blue`, `purple`, `aqua`, `peach`
 - `values` - items that will be displayed
 - `classes` - add your custom classes if you want to add custom style to the component
 ### Item
-- `bgColor` - change the color of the sidebar it can be `black`, `light`, `blue`
+- `bgColor` - change the color of the sidebar it can be `black`, `light`, `blue`, `purple`, `aqua`, `peach`
 - `classes` - add your custom classes if you want to add custom style to the component
 ### Logo
 - `image` - url to the image
