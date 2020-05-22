@@ -4,9 +4,9 @@
 
 [![NPM](https://img.shields.io/npm/v/react-sidebar-ui.svg)](https://www.npmjs.com/package/react-sidebar-ui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-![](https://i.imgur.com/gXPJtJW.gif)
-![](https://i.imgur.com/QT86Om0.gif)
-![](https://imgur.com/gHZQYo6.gif)
+![](https://i.imgur.com/gXPJtJW.gif | width=80)
+![](https://i.imgur.com/QT86Om0.gif | width=80)
+![](https://imgur.com/gHZQYo6.gif | width=80)
 
 ## Install
 
