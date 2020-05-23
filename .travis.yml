@@ -1,4 +1,18 @@
-language: node_js
-node_js:
-  - 12
-  - 10
+stages:
+  - build
+  - quality
+
+cache:
+  paths:
+    - node_modules/
+
+build:
+  stage: build
+  script:
+    - yarn install
+
+linting:
+  stage: quality
+  script:
+    - yarn run eslint .
+    - yarn run eslint --fix
