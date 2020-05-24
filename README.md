@@ -8,7 +8,7 @@
 
 ![React Sidebar UI Black](https://i.imgur.com/gXPJtJW.gif)
 ![React Sidebar UI Light](https://i.imgur.com/QT86Om0.gif)
-
+![React Sidebar UI Light](https://imgur.com/gHZQYo6.gif)
 ## Install
 
 ```bash
@@ -64,7 +64,6 @@ const App = () => {
   )
 };
 ```
-You should import FontAwesome in order to use the icons.
 ## Props
 
 Common props you may want to specify include:
