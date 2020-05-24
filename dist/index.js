@@ -22,9 +22,9 @@ var Toggler = function Toggler(_ref) {
     },
     className: classes
   }, !isCollapsed ? /*#__PURE__*/React__default.createElement("i", {
-    className: "fas fa-times _styles-module__toggler__2_oI1"
+    className: "fas fa-times _2_oI1"
   }) : /*#__PURE__*/React__default.createElement("i", {
-    className: "fas fa-bars _styles-module__toggler__2_oI1"
+    className: "fas fa-bars _2_oI1"
   }));
 };
 
@@ -45,11 +45,11 @@ var Sidebar = function Sidebar(_ref) {
       setCollapsed = _useState2[1];
 
   React.useEffect(function () {
-    var c = isOpen ? " _styles-module__collapsed__2Q5t5 " : '';
+    var c = isOpen ? " _2Q5t5 " : '';
     setCollapsed(c);
   }, [isOpen]);
   return /*#__PURE__*/React__default.createElement("div", {
-    className: "_styles-module__container-wrapper__13dNw " + color + " " + classCollapsed + " " + classes
+    className: "_13dNw " + color + " " + classCollapsed + " " + classes
   }, /*#__PURE__*/React__default.createElement(Toggler, {
     isCollapsed: isOpen,
     toggleIsOpen: toggleIsOpen
@@ -63,7 +63,7 @@ var Logo = function Logo(_ref) {
   return /*#__PURE__*/React__default.createElement("img", {
     src: image,
     alt: imageName,
-    className: "_styles-module__logo-image__3qnVN " + classes
+    className: "_3qnVN " + classes
   });
 };
 
@@ -92,14 +92,14 @@ var DropdownItem = function DropdownItem(_ref) {
     }, item);
   }) : '';
   return /*#__PURE__*/React__default.createElement("div", {
-    className: '_styles-module__item__VrCv _styles-module__dropdown-item__GubVm ' + classes
+    className: '_VrCv _GubVm ' + classes
   }, /*#__PURE__*/React__default.createElement(Item$1, {
     bgColor: bgColor,
     onClick: function onClick() {
       return toggleOpen(!isOpen);
     }
   }, children, /*#__PURE__*/React__default.createElement("i", {
-    className: "_styles-module__mx-1__3ow2- fas fa-chevron-circle-down"
+    className: "_mx-1__3ow2- fas fa-chevron-circle-down"
   })), /*#__PURE__*/React__default.createElement("div", null, isOpen ? items : ''));
 };
 
@@ -131,7 +131,7 @@ var Item = function Item(_ref) {
   var color = colorsHovered[bgColor] + " " + colors[bgColor];
   return /*#__PURE__*/React__default.createElement("div", {
     onClick: onClick,
-    className: "_styles-module__item__VrCvP " + color + " " + classes
+    className: "_VrCvP " + color + " " + classes
   }, children);
 };
 
@@ -140,7 +140,7 @@ var Icon = function Icon(_ref) {
       styles = _ref.styles,
       classes = _ref.classes;
   return /*#__PURE__*/React__default.createElement("div", {
-    className: '_styles-module__icon__2Vept ' + classes,
+    className: '_2Vept ' + classes,
     style: {
       styles: styles
     }

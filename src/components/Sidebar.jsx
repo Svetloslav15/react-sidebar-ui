@@ -9,11 +9,11 @@ const Sidebar = ({bgColor, children, isCollapsed, classes}) => {
   const [classCollapsed, setCollapsed] = useState('');
 
   useEffect(() => {
-    const c = isOpen ? ` _styles-module__collapsed__2Q5t5 ` : '';
+    const c = isOpen ? ` _2Q5t5 ` : '';
     setCollapsed(c);
   }, [isOpen]);
   return (
-    <div className={`_styles-module__container-wrapper__13dNw ${color} ${classCollapsed} ${classes}`}>
+    <div className={`_13dNw ${color} ${classCollapsed} ${classes}`}>
       <Toggler isCollapsed={isOpen} toggleIsOpen={toggleIsOpen}/>
       {
         isOpen ? '' : children

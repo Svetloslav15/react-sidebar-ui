@@ -6,10 +6,10 @@ const DropdownItem = ({children, values, bgColor, classes}) => {
 
   const items = values ? values.map((item, index) => <Item bgColor={bgColor} key={index}>{item}</Item>) : '';
   return (
-    <div className={'_styles-module__item__VrCv _styles-module__dropdown-item__GubVm ' + classes}>
+    <div className={'_VrCv _GubVm ' + classes}>
       <Item bgColor={bgColor} onClick={() => toggleOpen(!isOpen)}>
         {children}
-        <i className='_styles-module__mx-1__3ow2- fas fa-chevron-circle-down'/>
+        <i className='_3ow2- fas fa-chevron-circle-down'/>
       </Item>
       <div>
         {
