@@ -16,11 +16,12 @@ npm install --save react-sidebar-ui
 ```
 
 ## Usage
+1. Import > https://unpkg.com/react-sidebar-ui@1.1.8/dist/index.css into yout index.html file
+2. In order to use icons, you should import Font-Awesome
 
 ```jsx
 import React from 'react'
 import {Sidebar, InputItem, DropdownItem, Icon, Item, Logo, LogoText} from 'react-sidebar-ui'
-import 'react-sidebar-ui/dist/index.css';
 
 const App = () => {
   return (
