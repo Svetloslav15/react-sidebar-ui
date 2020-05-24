@@ -1,3 +1,4 @@
+import './styles.module.css'
 import SidebarComponent from './components/Sidebar'
 import LogoComponent from './components/Logo'
 import LogoTextComponent from './components/LogoText'
