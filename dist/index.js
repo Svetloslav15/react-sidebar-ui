@@ -4,12 +4,12 @@ var React = require('react');
 var React__default = _interopDefault(React);
 
 var colors = {
-  black: '_styles-module__bg-black__2Ll57',
-  blue: '_styles-module__bg-blue__26ojv',
-  light: '_styles-module__bg-light__36YqV',
-  peach: '_styles-module__bg-peach__1vjRi',
-  purple: '_styles-module__bg-purple__1tllo',
-  aqua: '_styles-module__bg-aqua__2maJj'
+  black: '_2Ll57',
+  blue: '_26ojv',
+  light: '_36YqV',
+  peach: '_1vjRi',
+  purple: '_1tllo',
+  aqua: '_2maJj'
 };
 
 var Toggler = function Toggler(_ref) {
@@ -99,7 +99,7 @@ var DropdownItem = function DropdownItem(_ref) {
       return toggleOpen(!isOpen);
     }
   }, children, /*#__PURE__*/React__default.createElement("i", {
-    className: "_mx-1__3ow2- fas fa-chevron-circle-down"
+    className: "_3ow2- fas fa-chevron-circle-down"
   })), /*#__PURE__*/React__default.createElement("div", null, isOpen ? items : ''));
 };
 
@@ -115,12 +115,12 @@ var InputItem = function InputItem(_ref) {
 };
 
 var colorsHovered = {
-  black: '_styles-module__black-hover__3HbC6',
-  blue: '_styles-module__blue-hover__2nNpb',
-  light: '_styles-module__light-hover__8tJF8',
-  peach: '_styles-module__bg-peach-hover__2PHvo',
-  purple: '_styles-module__bg-purple-hover__lbp0_',
-  aqua: '_styles-module__bg-aqua-hover__1NfpZ'
+  black: '_3HbC6',
+  blue: '_2nNpb',
+  light: '_8tJF8',
+  peach: '_2PHvo',
+  purple: '_lbp0_',
+  aqua: '_1NfpZ'
 };
 
 var Item = function Item(_ref) {
