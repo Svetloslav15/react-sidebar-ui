@@ -9,14 +9,13 @@ var colors = {
   aqua: '_2maJj'
 };
 
-var Toggler = function Toggler(_ref) {
-  var isCollapsed = _ref.isCollapsed,
-      toggleIsOpen = _ref.toggleIsOpen,
-      classes = _ref.classes;
+const Toggler = ({
+  isCollapsed,
+  toggleIsOpen,
+  classes
+}) => {
   return /*#__PURE__*/React.createElement("span", {
-    onClick: function onClick() {
-      return toggleIsOpen(!isCollapsed);
-    },
+    onClick: () => toggleIsOpen(!isCollapsed),
     className: classes
   }, !isCollapsed ? /*#__PURE__*/React.createElement("i", {
     className: "fas fa-times _2_oI1"
@@ -25,85 +24,74 @@ var Toggler = function Toggler(_ref) {
   }));
 };
 
-var Sidebar = function Sidebar(_ref) {
-  var bgColor = _ref.bgColor,
-      children = _ref.children,
-      isCollapsed = _ref.isCollapsed,
-      classes = _ref.classes;
-
-  var _useState = useState(isCollapsed),
-      isOpen = _useState[0],
-      toggleIsOpen = _useState[1];
-
-  var color = colors[bgColor] || colors['white'];
-
-  var _useState2 = useState(''),
-      classCollapsed = _useState2[0],
-      setCollapsed = _useState2[1];
-
-  useEffect(function () {
-    var c = isOpen ? " _2Q5t5 " : '';
+const Sidebar = ({
+  bgColor,
+  children,
+  isCollapsed,
+  classes
+}) => {
+  const [isOpen, toggleIsOpen] = useState(isCollapsed);
+  const color = colors[bgColor] || colors['white'];
+  const [classCollapsed, setCollapsed] = useState('');
+  useEffect(() => {
+    const c = isOpen ? ` _2Q5t5 ` : '';
     setCollapsed(c);
   }, [isOpen]);
   return /*#__PURE__*/React.createElement("div", {
-    className: "_13dNw " + color + " " + classCollapsed + " " + classes
+    className: `_13dNw ${color} ${classCollapsed} ${classes}`
   }, /*#__PURE__*/React.createElement(Toggler, {
     isCollapsed: isOpen,
     toggleIsOpen: toggleIsOpen
   }), isOpen ? '' : children);
 };
 
-var Logo = function Logo(_ref) {
-  var image = _ref.image,
-      imageName = _ref.imageName,
-      classes = _ref.classes;
+const Logo = ({
+  image,
+  imageName,
+  classes
+}) => {
   return /*#__PURE__*/React.createElement("img", {
     src: image,
     alt: imageName,
-    className: "_3qnVN " + classes
+    className: `_3qnVN ${classes}`
   });
 };
 
-var LogoText = function LogoText(_ref) {
-  var children = _ref.children,
-      classes = _ref.classes;
+const LogoText = ({
+  children,
+  classes
+}) => {
   return /*#__PURE__*/React.createElement("h2", {
     className: classes
   }, children);
 };
 
-var DropdownItem = function DropdownItem(_ref) {
-  var children = _ref.children,
-      values = _ref.values,
-      bgColor = _ref.bgColor,
-      classes = _ref.classes;
-
-  var _useState = useState(false),
-      isOpen = _useState[0],
-      toggleOpen = _useState[1];
-
-  var items = values ? values.map(function (item, index) {
-    return /*#__PURE__*/React.createElement(Item$1, {
-      bgColor: bgColor,
-      key: index
-    }, item);
-  }) : '';
+const DropdownItem = ({
+  children,
+  values,
+  bgColor,
+  classes
+}) => {
+  const [isOpen, toggleOpen] = useState(false);
+  const items = values ? values.map((item, index) => /*#__PURE__*/React.createElement(Item$1, {
+    bgColor: bgColor,
+    key: index
+  }, item)) : '';
   return /*#__PURE__*/React.createElement("div", {
     className: '_VrCv _GubVm ' + classes
   }, /*#__PURE__*/React.createElement(Item$1, {
     bgColor: bgColor,
-    onClick: function onClick() {
-      return toggleOpen(!isOpen);
-    }
+    onClick: () => toggleOpen(!isOpen)
   }, children, /*#__PURE__*/React.createElement("i", {
     className: "_3ow2- fas fa-chevron-circle-down"
   })), /*#__PURE__*/React.createElement("div", null, isOpen ? items : ''));
 };
 
-var InputItem = function InputItem(_ref) {
-  var type = _ref.type,
-      placeholder = _ref.placeholder,
-      classes = _ref.classes;
+const InputItem = ({
+  type,
+  placeholder,
+  classes
+}) => {
   return /*#__PURE__*/React.createElement("input", {
     type: type,
     placeholder: placeholder,
@@ -120,38 +108,40 @@ var colorsHovered = {
   aqua: '_1NfpZ'
 };
 
-var Item = function Item(_ref) {
-  var bgColor = _ref.bgColor,
-      children = _ref.children,
-      onClick = _ref.onClick,
-      classes = _ref.classes;
-  var color = colorsHovered[bgColor] + " " + colors[bgColor];
+const Item = ({
+  bgColor,
+  children,
+  onClick,
+  classes
+}) => {
+  const color = `${colorsHovered[bgColor]} ${colors[bgColor]}`;
   return /*#__PURE__*/React.createElement("div", {
     onClick: onClick,
-    className: "_VrCvP " + color + " " + classes
+    className: `_VrCvP ${color} ${classes}`
   }, children);
 };
 
-var Icon = function Icon(_ref) {
-  var children = _ref.children,
-      styles = _ref.styles,
-      classes = _ref.classes;
-  return /*#__PURE__*/React.createElement("div", {
+const Icon = ({
+  children,
+  styles,
+  classes
+}) => {
+  return /*#__PURE__*/React.createElement("i", {
     className: '_2Vept ' + classes,
     style: {
-      styles: styles
+      styles
     }
   }, children);
 };
 
-var Sidebar$1 = Sidebar;
-var Logo$1 = Logo;
-var LogoText$1 = LogoText;
-var Item$1 = Item;
-var Icon$1 = Icon;
-var InputItem$1 = InputItem;
-var DropdownItem$1 = DropdownItem;
-var Toggler$1 = Toggler;
+const Sidebar$1 = Sidebar;
+const Logo$1 = Logo;
+const LogoText$1 = LogoText;
+const Item$1 = Item;
+const Icon$1 = Icon;
+const InputItem$1 = InputItem;
+const DropdownItem$1 = DropdownItem;
+const Toggler$1 = Toggler;
 
 export { DropdownItem$1 as DropdownItem, Icon$1 as Icon, InputItem$1 as InputItem, Item$1 as Item, Logo$1 as Logo, LogoText$1 as LogoText, Sidebar$1 as Sidebar, Toggler$1 as Toggler };
 //# sourceMappingURL=index.modern.js.map

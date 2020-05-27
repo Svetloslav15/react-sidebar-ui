@@ -4,15 +4,15 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-._2a97v {
+._styles-module__bg-red__2a97v {
   background-color: crimson;
 }
 
-._mra1C {
+._styles-module__bg-white__mra1C {
   background-color: white;
 }
 
-._13dNw {
+._styles-module__container-wrapper__13dNw {
   width: 250px;
   height: 100vh;
   background-color: deepskyblue;
@@ -24,7 +24,7 @@
   transition: all .3s ease-in-out;
 }
 
-._VrCvP {
+._styles-module__item__VrCvP {
   width: 95%;
   padding: 10px 0;
   padding-left: 12px;
@@ -33,73 +33,73 @@
   text-align: left;
 }
 
-._VrCvP:hover {
+._styles-module__item__VrCvP:hover {
   background-color: #0377DA;
   padding: 14px 0;
   padding-left: 12px;
   transition: all .3s ease-in-out;
 }
 
-._2Vept {
+._styles-module__icon__2Vept {
   padding-right: 10px;
   display: inline-block;
   width: 20%;
   font-size: 15px;
 }
 
-._26ojv {
+._styles-module__bg-blue__26ojv {
   background-color: #3960D0;
   color: white;
 }
 
-._2nNpb:hover {
+._styles-module__blue-hover__2nNpb:hover {
   background-color: #609BEB;
   color: white;
 }
 
-._36YqV {
+._styles-module__bg-light__36YqV {
   background-color: #FFFEFF;
   color: black;
 }
 
-._8tJF8:hover {
+._styles-module__light-hover__8tJF8:hover {
   background-color: #F6F6F6;
 }
 
-._2Ll57 {
+._styles-module__bg-black__2Ll57 {
   background-color: #1c1e2a;
   color: white;
 }
 
-._3HbC6:hover {
+._styles-module__black-hover__3HbC6:hover {
   background-color: #2C2F3E;
   color: white;
 }
 
-._GubVm {
+._styles-module__dropdown-item__GubVm {
   text-align: left;
   cursor: pointer;
 }
 
-._3ow2- {
+._styles-module__mx-1__3ow2- {
   margin: 0 1em;
 }
 
-._2fnX0 {
+._styles-module__d-none__2fnX0 {
   display: none;
 }
 
-._-s3Rh {
+._styles-module__d-block__-s3Rh {
   display: block;
   position: relative;
 }
 
-._3qnVN {
+._styles-module__logo-image__3qnVN {
   width: 100px;
   margin-top: 1em;
 }
 
-._2_oI1 {
+._styles-module__toggler__2_oI1 {
   position: absolute;
   right: 15px;
   top: 15px;
@@ -107,7 +107,7 @@
   cursor: pointer;
 }
 
-._2Q5t5 {
+._styles-module__collapsed__2Q5t5 {
   width: 85px;
 }
 
@@ -117,37 +117,37 @@ input {
   box-sizing: border-box;
 }
 
-._17SmE {
+._styles-module__pos-left__17SmE {
   left: 0;
 }
 
-._1NTmL {
+._styles-module__pos-right__1NTmL {
   right: 0;
 }
 
-._1vjRi {
+._styles-module__bg-peach__1vjRi {
   background-color: #FD7E65;
   color: white;
 }
 
-._2PHvo:hover {
+._styles-module__bg-peach-hover__2PHvo:hover {
   background-color: #FD9768;
 }
 
-._1tllo {
+._styles-module__bg-purple__1tllo {
   background-color: #A771E4;
   color: white;
 }
 
-._lbp0_:hover {
+._styles-module__bg-purple-hover__lbp0_:hover {
   background-color: #E26FCF;
 }
 
-._2maJj {
+._styles-module__bg-aqua__2maJj {
   background-color: #1DA4F4;
   color: white;
 }
 
-._1NfpZ:hover {
+._styles-module__bg-aqua-hover__1NfpZ:hover {
   background-color: #16BCDE;
 }

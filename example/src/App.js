@@ -2,6 +2,7 @@ import React from 'react'
 import {Sidebar, InputItem, DropdownItem, Icon, Item, Logo, LogoText} from 'react-sidebar-ui'
 import 'react-sidebar-ui/dist/index.css';
 import './index.css';
+
 let typeClass = 'black';
 
 const App = () => {
@@ -19,23 +20,23 @@ const App = () => {
         </DropdownItem>
 
         <Item bgColor={typeClass}>
-          <Icon><i className="fas fa-home"/></Icon>
+          <Icon className="fas fa-home"/>
           Home
         </Item>
         <Item bgColor={typeClass}>
-          <Icon><i className="fas fa-info"/></Icon>
+          <Icon className="fas fa-info"/>
           About
         </Item>
         <Item bgColor={typeClass}>
-          <Icon><i className="fas fa-sitemap"/></Icon>
+          <Icon className="fas fa-sitemap"/>
           My Website
         </Item>
         <Item bgColor={typeClass}>
-          <Icon><i className="far fa-address-book"/></Icon>
+          <Icon className="far fa-address-book"/>
           Contacts
         </Item>
         <Item bgColor={typeClass}>
-          <Icon><i className="fas fa-rss-square"/></Icon>
+          <Icon className="fas fa-rss-square"/>
           Blog
         </Item>
         <InputItem type='text' placeholder={'Search...'}/>

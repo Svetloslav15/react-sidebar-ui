@@ -139,7 +139,7 @@ var Icon = function Icon(_ref) {
   var children = _ref.children,
       styles = _ref.styles,
       classes = _ref.classes;
-  return /*#__PURE__*/React__default.createElement("div", {
+  return /*#__PURE__*/React__default.createElement("i", {
     className: '_2Vept ' + classes,
     style: {
       styles: styles
