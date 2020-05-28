@@ -4,7 +4,7 @@
 
 [![NPM](https://img.shields.io/npm/v/react-sidebar-ui.svg)](https://www.npmjs.com/package/react-sidebar-ui)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![NPM Downloads](https://img.shields.io/npm/dw/react-sidebar-ui.svg)](https://www.npmjs.com/package/react-sidebar-ui)
+[![NPM Downloads](https://img.shields.io/npm/dm/react-sidebar-ui.svg)](https://www.npmjs.com/package/react-sidebar-ui)
 
 ![React Sidebar UI Black](https://i.imgur.com/gXPJtJW.gif)
 ![React Sidebar UI Light](https://i.imgur.com/QT86Om0.gif)
@@ -86,6 +86,8 @@ Common props you may want to specify include:
 - `type` - type of the input field
 - `placeholder` - placeholder of the input field
 - `classes` - add your custom classes if you want to add custom style to the component
+### Icon
+- `classes` - you should add font-awesome class here add your custom classes if you want to add custom style to the component
 
 ## Customization
 If you want to change the style of a component, you can do it by adding your own classes to the component
