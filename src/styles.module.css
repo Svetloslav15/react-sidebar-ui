@@ -151,3 +151,6 @@ input {
 .bg-aqua-hover:hover {
   background-color: #16BCDE;
 }
+.float-right {
+  float: right;
+}

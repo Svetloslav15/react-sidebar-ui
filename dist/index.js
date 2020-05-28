@@ -38,16 +38,26 @@ var Sidebar = function Sidebar(_ref) {
       isOpen = _useState[0],
       toggleIsOpen = _useState[1];
 
+  var _useState2 = React.useState(!isCollapsed),
+      prevIsCollapseFromParent = _useState2[0],
+      setParentCollapse = _useState2[1];
+
   var color = colors[bgColor] || colors['white'];
 
-  var _useState2 = React.useState(''),
-      classCollapsed = _useState2[0],
-      setCollapsed = _useState2[1];
+  var _useState3 = React.useState(''),
+      classCollapsed = _useState3[0],
+      setCollapsed = _useState3[1];
 
   React.useEffect(function () {
     var c = isOpen ? " _2Q5t5 " : '';
     setCollapsed(c);
-  }, [isOpen]);
+
+    if (isCollapsed === prevIsCollapseFromParent) {
+      toggleIsOpen(isCollapsed);
+      setParentCollapse(!isCollapsed);
+    }
+  }, [isOpen, isCollapsed]);
+
   return /*#__PURE__*/React__default.createElement("div", {
     className: "_13dNw " + color + " " + classCollapsed + " " + classes
   }, /*#__PURE__*/React__default.createElement(Toggler, {
