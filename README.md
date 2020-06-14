@@ -3,7 +3,6 @@
 > ⚛️ Sidebar component for React projects with customizable design
 
 [![NPM](https://img.shields.io/npm/v/react-sidebar-ui.svg)](https://www.npmjs.com/package/react-sidebar-ui)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![NPM Downloads](https://img.shields.io/npm/dt/react-sidebar-ui.svg)](https://www.npmjs.com/package/react-sidebar-ui)
 
 ![React Sidebar UI Black](https://i.imgur.com/gXPJtJW.gif)
