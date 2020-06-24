@@ -1,4 +1,4 @@
-# react-sidebar-ui
+# react-sidebar-ui library
 
 > ⚛️ Sidebar component for React projects with customizable design
 
