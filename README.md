@@ -1,11 +1,11 @@
 # react-sidebar-ui
 
-> Sidebar component for React projects with customizable design
+> ⚛️ Sidebar component for React projects with customizable design
 
-[![NPM](https://img.shields.io/npm/v/react-sidebar-ui.svg)](https://www.npmjs.com/package/react-sidebar-ui)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+ [![NPM](https://img.shields.io/npm/v/react-sidebar-ui.svg)](https://www.npmjs.com/package/react-sidebar-ui)
 [![NPM Downloads](https://img.shields.io/npm/dt/react-sidebar-ui.svg)](https://www.npmjs.com/package/react-sidebar-ui)
-
+[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/svetloslav)
+<br/>
 ![React Sidebar UI Black](https://i.imgur.com/gXPJtJW.gif)
 ![React Sidebar UI Light](https://i.imgur.com/QT86Om0.gif)
 ![React Sidebar UI Light](https://imgur.com/gHZQYo6.gif)
@@ -18,7 +18,7 @@ yarn add react-sidebar-ui
 ```
 
 ## Usage
-1. Import `https://unpkg.com/react-sidebar-ui@1.1.8/dist/index.css` into your index.html file
+1. Import `https://unpkg.com/react-sidebar-ui@1.2.0/dist/index.css` into your index.html file
 2. In order to use icons, you should import Font-Awesome
 3. Start using the component
 
@@ -92,7 +92,7 @@ Common props you may want to specify include:
 - `classes` - you should add font-awesome class here add your custom classes if you want to add custom style to the component
 
 ## Customization
-If you want to change the style of a component, you can do it by adding your own classes to the component
+If you want to change the style of a component, you can do it by adding your own classes to the component.
 ## Contribute 
 Contributions are always welcome!
 Please read the [contribution guidelines](contributing.md) first.
