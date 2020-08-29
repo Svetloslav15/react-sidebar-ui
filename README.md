@@ -12,7 +12,9 @@
 ## Install
 
 ```bash
-npm install --save react-sidebar-ui
+npm install react-sidebar-ui
+or
+yarn add react-sidebar-ui
 ```
 
 ## Usage
