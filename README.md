@@ -10,7 +10,6 @@
 ![React Sidebar UI Light](https://i.imgur.com/QT86Om0.gif)
 ![React Sidebar UI Light](https://imgur.com/gHZQYo6.gif)
 ## Install
-
 ```bash
 npm install react-sidebar-ui
 or
