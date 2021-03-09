@@ -59,7 +59,7 @@ var Sidebar = function Sidebar(_ref) {
   }, [isOpen, isCollapsed]);
 
   return /*#__PURE__*/React__default.createElement("div", {
-    className: "_13dNw " + color + " " + classCollapsed + " " + classes
+    className: "_13dNw " + color + " " + classCollapsed + " " + (classes && classes)
   }, /*#__PURE__*/React__default.createElement(Toggler, {
     isCollapsed: isOpen,
     toggleIsOpen: toggleIsOpen
@@ -141,7 +141,7 @@ var Item = function Item(_ref) {
   var color = colorsHovered[bgColor] + " " + colors[bgColor];
   return /*#__PURE__*/React__default.createElement("div", {
     onClick: onClick,
-    className: "_VrCvP " + color + " " + classes
+    className: "_VrCvP " + color + " " + (classes && classes)
   }, children);
 };
 
@@ -149,7 +149,7 @@ var Icon = function Icon(_ref) {
   var children = _ref.children,
       styles = _ref.styles,
       classes = _ref.classes;
-  return /*#__PURE__*/React__default.createElement("i", {
+  return /*#__PURE__*/React__default.createElement("div", {
     className: '_2Vept ' + classes,
     style: {
       styles: styles

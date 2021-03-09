@@ -21,11 +21,10 @@ const Sidebar = ({bgColor, children, isCollapsed, classes}) => {
   const toggleIsOpenCustom = (val) => {
     isCollapsed = val;
     toggleIsOpen(val);
-    console.log('toggle');
   };
 
   return (
-    <div className={`_13dNw ${color} ${classCollapsed} ${classes}`}>
+    <div className={`_13dNw ${color} ${classCollapsed} ${classes && classes}`}>
       <Toggler isCollapsed={isOpen} toggleIsOpen={toggleIsOpen}/>
       {
         isOpen ? '' : children
