@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bg-red {
+  background-color: crimson;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.container-wrapper {
+  width: 250px;
+  height: 100vh;
+  background-color: deepskyblue;
+  color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  transition: all .3s ease-in-out;
+}
+
+.item {
+  width: 95%;
+  padding: 14px 0;
+  padding-left: 12px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.item:hover {
+  background-color: #0377DA;
+  transition: all .3s ease-in-out;
+}
+
+.icon {
+  padding-right: 10px;
+  display: inline-block;
+  width: 20%;
+  font-size: 15px;
+}
+
+.bg-blue {
+  background-color: #3960D0;
+  color: white;
+}
+
+.blue-hover:hover {
+  background-color: #609BEB;
+  color: white;
+}
+
+.bg-light {
+  background-color: #FFFEFF;
+  color: black;
+}
+
+.light-hover:hover {
+  background-color: #F6F6F6;
+}
+
+.bg-black {
+  background-color: #1c1e2a;
+  color: white;
+}
+
+.black-hover:hover {
+  background-color: #2C2F3E;
+  color: white;
+}
+
+.dropdown-item {
+  text-align: left;
+  cursor: pointer;
+}
+
+.mx-1 {
+  margin: 0 1em;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+  position: relative;
+}
+
+.logo-image {
+  width: 100px;
+  margin-top: 1em;
+}
+
+.toggler {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.collapsed {
+  width: 85px;
+}
+
+input {
+  padding: 12px 20px;
+  margin: 15px 0;
+  box-sizing: border-box;
+}
+
+.pos-left {
+  left: 0;
+}
+
+.pos-right {
+  right: 0;
+}
+
+.bg-peach {
+  background-color: #FD7E65;
+  color: white;
+}
+
+.bg-peach-hover:hover {
+  background-color: #FD9768;
+}
+
+.bg-peach .item:hover {
+  background-color: white;
+  color: #FD7E65;
+}
+
+.bg-purple {
+  background-color: #A771E4;
+  color: white;
+}
+
+.bg-purple-hover:hover {
+  background-color: #E26FCF;
+}
+
+.bg-aqua {
+  background-color: #1DA4F4;
+  color: white;
+}
+
+.bg-aqua-hover:hover {
+  background-color: #16BCDE;
+}
+.float-right {
+  float: right;
+}

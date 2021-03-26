@@ -5,7 +5,8 @@ const Logo = ({ image, imageName, classes }) => {
     <img
       src={image}
       alt={imageName}
-      className={`_3qnVN ${classes}`} />
+      className={`logo-image ${classes}`}
+    />
   )
 }
 

@@ -8,7 +8,7 @@ const Item = ({ bgColor, children, onClick, classes }) => {
   return (
     <div
       onClick={onClick}
-      className={`_VrCvP ${color} ${classes && classes}`}>
+      className={`item ${color} ${classes && classes}`}>
       {children}
     </div>
   )

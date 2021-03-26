@@ -70,6 +70,7 @@
   ],
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
+    "react-fontawesome": "1.7.1",
     "react-router-dom": "^5.2.0"
   }
 }

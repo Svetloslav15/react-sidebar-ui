@@ -1,8 +1,8 @@
 export default {
-  black: '_2Ll57',
-  blue: '_26ojv',
-  light: '_36YqV',
-  peach: '_1vjRi',
-  purple: '_1tllo',
-  aqua: '_2maJj'
+  black: 'bg-black',
+  blue: 'bg-blue',
+  light: 'bg-light',
+  peach: 'bg-peach',
+  purple: 'bg-purple',
+  aqua: 'bg-aqua'
 }

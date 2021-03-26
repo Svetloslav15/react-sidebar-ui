@@ -4,12 +4,12 @@ var React = require('react');
 var React__default = _interopDefault(React);
 
 var colors = {
-  black: '_2Ll57',
-  blue: '_26ojv',
-  light: '_36YqV',
-  peach: '_1vjRi',
-  purple: '_1tllo',
-  aqua: '_2maJj'
+  black: 'bg-black',
+  blue: 'bg-blue',
+  light: 'bg-light',
+  peach: 'bg-peach',
+  purple: 'bg-purple',
+  aqua: 'bg-aqua'
 };
 
 var Toggler = function Toggler(_ref) {
@@ -22,9 +22,9 @@ var Toggler = function Toggler(_ref) {
     },
     className: classes
   }, !isCollapsed ? /*#__PURE__*/React__default.createElement("i", {
-    className: "fas fa-times _2_oI1"
+    className: "fas fa-times toggler"
   }) : /*#__PURE__*/React__default.createElement("i", {
-    className: "fas fa-bars _2_oI1"
+    className: "fas fa-bars toggler"
   }));
 };
 
@@ -49,7 +49,7 @@ var Sidebar = function Sidebar(_ref) {
       setCollapsed = _useState3[1];
 
   React.useEffect(function () {
-    var c = isOpen ? " _2Q5t5 " : '';
+    var c = isOpen ? " collapsed " : '';
     setCollapsed(c);
 
     if (isCollapsed === prevIsCollapseFromParent) {
@@ -59,7 +59,7 @@ var Sidebar = function Sidebar(_ref) {
   }, [isOpen, isCollapsed]);
 
   return /*#__PURE__*/React__default.createElement("div", {
-    className: "_13dNw " + color + " " + classCollapsed + " " + (classes && classes)
+    className: "container-wrapper " + color + " " + classCollapsed + " " + (classes && classes)
   }, /*#__PURE__*/React__default.createElement(Toggler, {
     isCollapsed: isOpen,
     toggleIsOpen: toggleIsOpen
@@ -73,7 +73,7 @@ var Logo = function Logo(_ref) {
   return /*#__PURE__*/React__default.createElement("img", {
     src: image,
     alt: imageName,
-    className: "_3qnVN " + classes
+    className: "logo-image " + classes
   });
 };
 
@@ -102,15 +102,15 @@ var DropdownItem = function DropdownItem(_ref) {
     }, item);
   }) : '';
   return /*#__PURE__*/React__default.createElement("div", {
-    className: '_VrCv _GubVm ' + classes
+    className: "dropdown-item " + classes
   }, /*#__PURE__*/React__default.createElement(Item$1, {
     bgColor: bgColor,
     onClick: function onClick() {
       return toggleOpen(!isOpen);
     }
   }, children, /*#__PURE__*/React__default.createElement("i", {
-    className: "_3ow2- fas fa-chevron-circle-down"
-  })), /*#__PURE__*/React__default.createElement("div", null, isOpen ? items : ''));
+    className: "mx-1 fas fa-chevron-circle-down"
+  })), /*#__PURE__*/React__default.createElement("div", null, isOpen && items));
 };
 
 var InputItem = function InputItem(_ref) {
@@ -141,16 +141,16 @@ var Item = function Item(_ref) {
   var color = colorsHovered[bgColor] + " " + colors[bgColor];
   return /*#__PURE__*/React__default.createElement("div", {
     onClick: onClick,
-    className: "_VrCvP " + color + " " + (classes && classes)
+    className: "item " + color + " " + (classes && classes)
   }, children);
 };
 
 var Icon = function Icon(_ref) {
   var children = _ref.children,
       styles = _ref.styles,
-      classes = _ref.classes;
+      className = _ref.className;
   return /*#__PURE__*/React__default.createElement("div", {
-    className: '_2Vept ' + classes,
+    className: "icon " + className,
     style: {
       styles: styles
     }

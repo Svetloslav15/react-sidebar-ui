@@ -7,9 +7,9 @@ const Toggler = ({ isCollapsed, toggleIsOpen, classes }) => {
       className={classes}>
       {
         !isCollapsed ?
-          <i className='fas fa-times _2_oI1' />
+          <i className='fas fa-times toggler' />
           :
-          <i className='fas fa-bars _2_oI1' />
+          <i className='fas fa-bars toggler' />
       }
     </span>
   )

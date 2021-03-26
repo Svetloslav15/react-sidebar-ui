@@ -10,7 +10,7 @@ const Sidebar = ({bgColor, children, isCollapsed, classes}) => {
   const [classCollapsed, setCollapsed] = useState('');
 
   useEffect(() => {
-    const c = isOpen ? ` _2Q5t5 ` : '';
+    const c = isOpen ? ` collapsed ` : '';
     setCollapsed(c);
     if (isCollapsed === prevIsCollapseFromParent) {
       toggleIsOpen(isCollapsed);
@@ -24,7 +24,7 @@ const Sidebar = ({bgColor, children, isCollapsed, classes}) => {
   };
 
   return (
-    <div className={`_13dNw ${color} ${classCollapsed} ${classes && classes}`}>
+    <div className={`container-wrapper ${color} ${classCollapsed} ${classes && classes}`}>
       <Toggler isCollapsed={isOpen} toggleIsOpen={toggleIsOpen}/>
       {
         isOpen ? '' : children

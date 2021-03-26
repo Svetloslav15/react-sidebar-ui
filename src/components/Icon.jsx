@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Icon = ({ children, styles, classes }) => {
+const Icon = ({ children, styles, className }) => {
   return (
     <div
-      className={'_2Vept ' + classes}
+      className={`icon ${className}`}
       style={{ styles }}>
         {children}
     </div>

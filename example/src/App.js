@@ -1,6 +1,6 @@
 import React from 'react';
 import {Sidebar, InputItem, DropdownItem, Icon, Item, Logo, LogoText} from 'react-sidebar-ui';
-import 'react-sidebar-ui/dist/index.css';
+import 'react-sidebar-ui/dist/app.css';
 import './index.css';
 
 let typeClass = 'peach';
