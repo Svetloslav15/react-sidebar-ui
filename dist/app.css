@@ -49,6 +49,10 @@
   color: white;
 }
 
+.bg-blue .item:hover {
+  background-color: #0541AA;
+}
+
 .blue-hover:hover {
   background-color: #609BEB;
   color: white;
@@ -63,9 +67,19 @@
   background-color: #F6F6F6;
 }
 
+.bg-light .item:hover {
+  background-color: #1c1e2a;
+  color: white;
+}
+
 .bg-black {
   background-color: #1c1e2a;
   color: white;
+}
+
+.bg-black .item:hover {
+  background-color: white;
+  color: #1c1e2a;
 }
 
 .black-hover:hover {
@@ -141,6 +155,10 @@ input {
   color: white;
 }
 
+.bg-purple .item:hover {
+  background-color: #7F00BE;
+}
+
 .bg-purple-hover:hover {
   background-color: #E26FCF;
 }
@@ -153,6 +171,7 @@ input {
 .bg-aqua-hover:hover {
   background-color: #16BCDE;
 }
+
 .float-right {
   float: right;
 }

@@ -3,7 +3,7 @@ import {Sidebar, InputItem, DropdownItem, Icon, Item, Logo, LogoText} from 'reac
 import 'react-sidebar-ui/dist/app.css';
 import './index.css';
 
-let typeClass = 'peach';
+let typeClass = 'aqua';
 
 const App = () => {
   return (
