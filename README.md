@@ -70,7 +70,7 @@ Common props you may want to specify include:
 - `bgColor` - change the color of the sidebar, it can be `black`, `light`, `blue`, `purple`, `aqua`, `peach`
 - `isCollapsed` - add start position of the sidebar if it will be collapsed or not
 - `classes` - add your custom classes if you want to add custom style to the component
-- `position` - add where to the sidebar will be positioned on the screen, it can be `left` and `right`. If you don't specify it will be `left`.
+- `position` - add where the sidebar will be positioned on the screen, it can be `left` and `right`. If you don't specify it will be `left`.
 ### DropdownItem
 - `bgColor` - change the color of the sidebar it can be `black`, `light`, `blue`, `purple`, `aqua`, `peach`
 - `values` - items that will be displayed
