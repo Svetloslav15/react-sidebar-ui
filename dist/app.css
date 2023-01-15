@@ -17,34 +17,22 @@
   height: 100vh;
   background-color: deepskyblue;
   color: white;
- 
+  position: fixed;
+  top: 0;
   text-align: center;
   transition: all .3s ease-in-out;
 }
 
-.pos-left {
-  position: fixed;
-  left: 0;
-  top: 0;
-}
-
-.pos-right {
-
-}
-
 .item {
   width: 95%;
-  padding: 10px 0;
+  padding: 14px 0;
   padding-left: 12px;
-  background-color: deepskyblue;
   cursor: pointer;
   text-align: left;
 }
 
 .item:hover {
   background-color: #0377DA;
-  padding: 14px 0;
-  padding-left: 12px;
   transition: all .3s ease-in-out;
 }
 
@@ -58,6 +46,10 @@
 .bg-blue {
   background-color: #3960D0;
   color: white;
+}
+
+.bg-blue .item:hover {
+  background-color: #0541AA;
 }
 
 .blue-hover:hover {
@@ -74,9 +66,19 @@
   background-color: #F6F6F6;
 }
 
+.bg-light .item:hover {
+  background-color: #1c1e2a;
+  color: white;
+}
+
 .bg-black {
   background-color: #1c1e2a;
   color: white;
+}
+
+.bg-black .item:hover {
+  background-color: white;
+  color: #1c1e2a;
 }
 
 .black-hover:hover {
@@ -142,9 +144,18 @@ input {
   background-color: #FD9768;
 }
 
+.bg-peach .item:hover {
+  background-color: white;
+  color: #FD7E65;
+}
+
 .bg-purple {
   background-color: #A771E4;
   color: white;
+}
+
+.bg-purple .item:hover {
+  background-color: #7F00BE;
 }
 
 .bg-purple-hover:hover {
@@ -159,6 +170,7 @@ input {
 .bg-aqua-hover:hover {
   background-color: #16BCDE;
 }
+
 .float-right {
   float: right;
 }

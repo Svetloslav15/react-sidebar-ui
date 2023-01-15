@@ -1,9 +1,13 @@
-import React from 'react';
+import React from 'react'
 
-const Logo = ({image, imageName, classes}) => {
+const Logo = ({ image, imageName, classes }) => {
   return (
-    <img src={image} alt={imageName} className={`_3qnVN ${classes}`}/>
+    <img
+      src={image}
+      alt={imageName}
+      className={`logo-image ${classes}`}
+    />
   )
-};
+}
 
-export default Logo;
+export default Logo

@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "react": "link:../node_modules/react",
-    "react-dom": "link:../node_modules/react-dom",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "link:../node_modules/react-scripts",
-    "react-sidebar-ui": "link:.."
+    "react-scripts": "^5.0.1",
+    "react-sidebar-ui": "^1.2.1"
   },
   "scripts": {
     "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
@@ -17,7 +17,6 @@
     "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": [
     ">0.2%",
