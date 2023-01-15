@@ -3,12 +3,12 @@ import {Sidebar, InputItem, DropdownItem, Icon, Item, Logo, LogoText} from 'reac
 import 'react-sidebar-ui/dist/app.css';
 import './index.css';
 
-let typeClass = 'aqua';
+let typeClass = 'blue';
 
 const App = () => {
   return (
     <div>
-      <Sidebar bgColor={typeClass} isCollapsed={false}>
+      <Sidebar bgColor={typeClass} isCollapsed={false} position='right'>
         <Logo
           image='https://media2.giphy.com/media/eNAsjO55tPbgaor7ma/source.gif'
           imageName='react logo'/>

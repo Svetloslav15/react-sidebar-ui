@@ -4,7 +4,8 @@ import { Item } from '../index';
 const DropdownItem = ({ children, values, bgColor, classes }) => {
   const [isOpen, toggleOpen] = useState(false)
 
-  const items = values ? values.map((item, index) => <Item bgColor={bgColor} key={index}>{item}</Item>) : ''
+  const items = values ? values.map((item, index) => <Item bgColor={bgColor} key={index}>{item}</Item>) : '';
+
   return (
     <div className={`dropdown-item ${classes}`}>
       <Item

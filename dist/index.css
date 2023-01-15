@@ -17,11 +17,19 @@
   height: 100vh;
   background-color: deepskyblue;
   color: white;
+ 
+  text-align: center;
+  transition: all .3s ease-in-out;
+}
+
+._styles-module__pos-left__17SmE {
   position: fixed;
   left: 0;
   top: 0;
-  text-align: center;
-  transition: all .3s ease-in-out;
+}
+
+._styles-module__pos-right__1NTmL {
+
 }
 
 ._styles-module__item__VrCvP {

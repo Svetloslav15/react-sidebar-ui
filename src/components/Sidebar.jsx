@@ -3,7 +3,7 @@ import '../styles.module.css';
 import colors from '../enums/colors';
 import Toggler from './Toggler';
 
-const Sidebar = ({bgColor, children, isCollapsed, classes}) => {
+const Sidebar = ({bgColor, children, isCollapsed, position = 'left', classes}) => {
   const [isOpen, toggleIsOpen] = useState(isCollapsed);
   const [prevIsCollapseFromParent, setParentCollapse] = useState(!isCollapsed);
   const color = colors[bgColor] || colors['white'];
@@ -24,7 +24,7 @@ const Sidebar = ({bgColor, children, isCollapsed, classes}) => {
   };
 
   return (
-    <div className={`container-wrapper ${color} ${classCollapsed} ${classes && classes}`}>
+    <div className={`container-wrapper ${color} ${classCollapsed} ${classes} pos-${position}`}>
       <Toggler isCollapsed={isOpen} toggleIsOpen={toggleIsOpen}/>
       {
         isOpen ? '' : children

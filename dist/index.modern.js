@@ -28,6 +28,7 @@ const Sidebar = ({
   bgColor,
   children,
   isCollapsed,
+  position: _position = 'left',
   classes
 }) => {
   const [isOpen, toggleIsOpen] = useState(isCollapsed);
@@ -37,15 +38,13 @@ const Sidebar = ({
   useEffect(() => {
     const c = isOpen ? ` collapsed ` : '';
     setCollapsed(c);
-
     if (isCollapsed === prevIsCollapseFromParent) {
       toggleIsOpen(isCollapsed);
       setParentCollapse(!isCollapsed);
     }
   }, [isOpen, isCollapsed]);
-
   return /*#__PURE__*/React.createElement("div", {
-    className: `container-wrapper ${color} ${classCollapsed} ${classes && classes}`
+    className: `container-wrapper ${color} ${classCollapsed} ${classes} pos-${_position}`
   }, /*#__PURE__*/React.createElement(Toggler, {
     isCollapsed: isOpen,
     toggleIsOpen: toggleIsOpen
