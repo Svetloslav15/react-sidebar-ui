@@ -5,9 +5,9 @@
  [![NPM](https://img.shields.io/npm/v/react-sidebar-ui.svg)](https://www.npmjs.com/package/react-sidebar-ui)
 [![NPM Downloads](https://img.shields.io/npm/dt/react-sidebar-ui.svg)](https://www.npmjs.com/package/react-sidebar-ui)
 <br/>
-![React Sidebar UI Black](https://i.imgur.com/gXPJtJW.gif)
-![React Sidebar UI Light](https://i.imgur.com/QT86Om0.gif)
-![React Sidebar UI Light](https://imgur.com/gHZQYo6.gif)
+![React Sidebar UI Black](https://i.imgur.com/4dXhYpU.gif)
+![React Sidebar UI Light](https://i.imgur.com/ZzmB4pY.gif)
+![React Sidebar UI Light](https://imgur.com/hDpzihz.gif)
 ## Install
 ```bash
 npm install react-sidebar-ui
